@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from SRC.exception import CustomException
 from SRC.logger import logging
 from SRC.components.data_transformation import DataTransformation, DataTransformationConfig
-#from SRC.components.model_trainer import ModelTrainer, ModelTrainerConfig
+from SRC.components.model_trainer import ModelTrainer, ModelTrainerConfig
 
 @dataclass
 class DataIngestionConfig:
@@ -57,6 +57,6 @@ if __name__ == "__main__":
     data_transformer = DataTransformation()
     train_arr, test_arr, _ = data_transformer.initiate_data_transformation(train_data, test_data)
 
-    # # Model training
-    # trainer = ModelTrainer()
-    # print(trainer.initiate_model_trainer(train_arr, test_arr))
+     # Model training
+    trainer = ModelTrainer()
+    print(trainer.initiate_model_trainer(train_arr, test_arr))
