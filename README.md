@@ -88,6 +88,6 @@ The project has the following structure:
 - `templates`: This directory contains HTML templates used in the web application.
 
 ## Author
-Sanjay Kumar Prasad, You can also visit my GitHub profile: @Debmalya0132
+Debmalya Chatterjee, You can also visit my GitHub profile: @Debmalya0132
 
 Feel free to reach out with any questions or feedback regarding the project.
